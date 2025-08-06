@@ -627,3 +627,9 @@ footer h2 {
   font-size: 22px;
  }
 }
+
+@media (min-width: 1198px) and (max-width: 1272px){
+ #location{
+  width: 300px;
+ }
+}
