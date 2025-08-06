@@ -220,6 +220,6 @@ function followersfunc(username, type) {
       })
     })
     .catch(() => {
-      userListDiv.innerHTML = "<p style='color:red;'>No information received.</p>";
+      projects.innerHTML = "<p style='color:red;'>No information received.</p>";
     });
 }

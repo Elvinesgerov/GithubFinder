@@ -9,6 +9,10 @@
  font-family: "Poppins", sans-serif;
 }
 
+body, html{
+ overflow-x: hidden;
+}
+
 
 ::-webkit-scrollbar {
  width: 7px;
@@ -431,4 +435,195 @@ footer h2 {
  font-size: 27px;
  color: #7E838F;
  transition: 1.1s;
+}
+
+
+@media (min-width: 350px) and (max-width: 1199px) {
+ header {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  width: 100%;
+ }
+
+ header h1 {
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+ }
+
+ .searchbox {
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+ }
+
+ .searchbox input {
+  height: 45px;
+  font-size: 16px;
+ }
+
+ .searchbox button {
+  height: 38px;
+  padding: 0 14px;
+  font-size: 16px;
+ }
+
+ .findercontainer {
+  flex-direction: column;
+  padding: 10px 15px;
+  gap: 15px;
+  display: none;
+  width: 100%;
+ }
+
+ .container-left {
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 10px;
+ }
+
+ .profile-img {
+  width: 220px;
+  height: 220px;
+  border-width: 2.5px;
+  margin-top: 5px;
+ }
+
+ .username {
+  font-size: 20px;
+ }
+
+ .linkcontent {
+  width: 100%;
+  max-width: 320px;
+  height: 35px;
+ }
+
+ .biotext {
+  font-size: 18px;
+ }
+
+ .locationbox {
+  font-size: 16px;
+ }
+
+ .followbox {
+  font-size: 16px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+ }
+
+ .followbox p {
+  margin: 0 12px;
+ }
+
+ .container-right {
+  width: 100%;
+  margin-top: 15px;
+  padding: 0 10px;
+ }
+
+ .container-right ul {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+ }
+
+ .container-right ul li {
+  width: 48%;
+  margin-bottom: 8px;
+  font-size: 18px;
+  border-radius: 12px 12px 0 0;
+  padding: 10px 0;
+ }
+
+ .projects {
+  width: 100%;
+  gap: 12px;
+ }
+
+ .repos {
+  width: 100%;
+  height: auto;
+  margin-top: 25px;
+ }
+
+ .bottom {
+  flex-direction: column;
+  height: auto;
+ }
+
+ .top {
+  font-size: 15px;
+  padding-left: 20px;
+ }
+
+ .bottom-left a {
+  max-width: 100%;
+  font-size: 18px;
+ }
+
+ .bottom-left p {
+  font-size: 18px;
+  max-width: 100%;
+ }
+
+ .bottom-right {
+  width: 100%;
+  margin: 12px 0 0 0;
+  justify-content: flex-start;
+ }
+
+ .bottom-right p {
+  margin-left: 20px;
+ }
+
+ footer {
+  margin-top: 25px;
+ }
+
+ .followcontainer {
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 12px;
+ }
+
+ .followleft {
+  max-width: 100%;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: flex-start;
+ }
+
+ .followleft img {
+  width: 60px;
+  height: 60px;
+ }
+
+ .followleft h3 {
+  font-size: 16px;
+  max-width: calc(100% - 70px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ }
+
+ .linkfollow {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+ }
+
+ .linkfollow a {
+  font-size: 22px;
+ }
 }
